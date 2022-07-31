@@ -1,0 +1,5 @@
+// Babel shouldn't be needed with esbuild-jest, 
+// but I haven't been able to get tests working without it
+{
+  "presets": ["@babel/preset-env", "@babel/preset-typescript", "@babel/preset-react"],
+}
